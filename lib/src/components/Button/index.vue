@@ -8,8 +8,16 @@
 export default {
   name: 'g-button',
   props: {
-    label: String,
-    size: String,
+    /** C'est pratique pour écrire un label. */
+    label: {
+        type: String,
+        required: true,
+        default: 'Turlututu'
+    },
+    size: {
+        type: String,
+        validator: (prop) => [ 'small', 'medium', 'large' ].includes(prop)
+    },
     color: String,
   },
   computed: {
