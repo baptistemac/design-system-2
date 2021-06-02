@@ -1,0 +1,17 @@
+
+[data-theme='expert'] {
+
+    /* Color */
+
+    --color-brand-hsl   : 358deg, 87%, 45%;
+
+    .reversed {
+        --color-brand-hsl   : 358deg, 87%, 50%;
+    }
+
+    /* Spacing */
+
+    --spacing-small     : 2px;
+    --spacing-medium    : 4px;
+    --spacing-large     : 8px;
+}

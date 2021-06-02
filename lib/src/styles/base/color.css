@@ -1,0 +1,42 @@
+
+/* Text colors */
+
+.color {
+
+    &-neutral-primary {
+        color: var(--color-neutral-primary );
+    }
+
+    &-neutral-secondary {
+        color: var(--color-neutral-secondary );
+    }
+
+    &-neutral-tertiary {
+        color: var(--color-neutral-tertiary );
+    }
+}
+
+/* 
+            'color-stroke-primary'                   : 'var(--color-stroke-primary )',
+            'color-stroke-secondary'                 : 'var(--color-stroke-secondary )',
+
+            'color-highlight'                        : 'var(--color-highlight )',
+
+            'color-feedback-neutral'                 : 'var(--color-feedback-neutral )',
+            'color-feedback-positive'                : 'var(--color-feedback-positive )',
+            'color-feedback-warning'                 : 'var(--color-feedback-warning )',
+            'color-feedback-negative'                : 'var(--color-feedback-negative )',
+
+            'color-bg-ground'                        : 'var(--color-bg-ground )',
+            'color-bg-underground'                   : 'var(--color-bg-underground )',
+
+            'color-bg-action-primary'                : 'var(--color-bg-action-primary )',
+            'color-bg-action-primary-hover'          : 'var(--color-bg-action-primary-hover )',
+            'color-bg-action-secondary'              : 'var(--color-bg-action-secondary )',
+            'color-bg-action-secondary-hover'        : 'var(--color-bg-action-secondary-hover )',
+            'color-bg-action-no-bg-hover'            : 'var(--color-bg-action-no-bg-hover )',
+            'color-bg-action-disabled'               : 'var(--color-bg-action-disabled )',
+            'color-bg-action-selected'               : 'var(--color-bg-action-selected )',
+
+            'color-bg-overlay-black-20prct'          : 'rgba(0,0,0, .2)',
+            'color-bg-overlay-black-50prct'          : 'rgba(0,0,0, .5)', */

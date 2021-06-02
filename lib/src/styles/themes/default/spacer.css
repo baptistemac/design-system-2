@@ -1,0 +1,14 @@
+
+/* Spacer base for all themes */
+
+:root {
+
+    --spacer-xxsmall     : .25rem;
+    --spacer-xsmall      : .5rem;
+    --spacer-small       : 1rem;
+    --spacer-medium      : 1.5rem;
+    --spacer-large       : 3rem;
+    --spacer-xlarge      : 4.5rem;
+    --spacer-xxlarge     : 6rem;
+
+}

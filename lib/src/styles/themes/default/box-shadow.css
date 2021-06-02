@@ -1,0 +1,9 @@
+
+:root {
+
+    --box-shadow-light           : 0 .125rem .5rem 0 rgba(5,4,4, .2);
+    --box-shadow-medium          : 0 .25rem 1.25rem 0 rgba(5,4,4, .2);
+    --box-shadow-strong          : 0 .5rem 1.25rem 0 rgba(5,4,4, .5);
+    --box-shadow-strong-inverted : 0 -.5rem 1.25rem 0 rgba(5,4,4, .5);
+
+}

@@ -1,0 +1,40 @@
+
+
+.bg-color {
+
+    &-ground {
+        background-color: var(--color-bg-ground );
+    }
+
+    &-underground {
+        background-color: var(--color-bg-underground );
+    }
+
+    &-action-primary {
+        background-color: var(--color-bg-action-primary );
+    }
+
+    &-action-primary-hover {
+        background-color: var(--color-bg-action-primary-hover );
+    }
+
+    &-action-secondary {
+        background-color: var(--color-bg-action-secondary );
+    }
+
+    &-action-secondary-hover {
+        background-color: var(--color-bg-action-secondary-hover );
+    }
+
+    &-action-no-bg-hover {
+        background-color: var(--color-bg-action-no-bg-hover );
+    }
+
+    &-action-disabled {
+        background-color: var(--color-bg-action-disabled );
+    }
+
+    &-action-selected {
+        background-color: var(--color-bg-action-selected );
+    }
+}

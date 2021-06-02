@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Theme: Default */
+@import 'themes/default/border-radius.css';
+@import 'themes/default/box-shadow.css';
+@import 'themes/default/breakpoint.css';
+@import 'themes/default/color.css';
+@import 'themes/default/font-family.css';
+@import 'themes/default/spacer.css';
+
+/* Theme: Expert */
+@import 'themes/expert/index.css';
+
+/* Theme: High-contrast */
+@import 'themes/high-contrast/index.css';
+
+
+/* Base */
+@import 'base/typography.css';
+@import 'base/bg-color.css';
+@import 'base/border-color.css';
+@import 'base/color.css';

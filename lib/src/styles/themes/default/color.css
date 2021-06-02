@@ -1,0 +1,150 @@
+
+/* Color base for all themes */
+
+:root {
+
+    /* Brand */
+
+    --color-brand-hsl                        : 358deg, 87%, 45%;
+    --color-brand                            : hsl( var(--color-brand-hsl) );
+    
+
+    /* Neutral */
+
+    --color-neutral-primary-hsl              : 358deg, 87%, 45%;
+    --color-neutral-primary                  : hsl( var(--color-neutral-primary-hsl) );
+    
+    --color-neutral-secondary-hsl            : 358deg, 87%, 45%;
+    --color-neutral-secondary                : hsl( var(--color-neutral-secondary-hsl) );
+    
+    --color-neutral-tertiary-hsl             : 358deg, 87%, 45%;
+    --color-neutral-tertiary                 : hsl( var(--color-neutral-tertiary-hsl) );
+    
+
+    /* Stroke */
+
+    --color-stroke-primary-hsl               : 358deg, 87%, 45%;
+    --color-stroke-primary                   : hsl( var(--color-stroke-primary-hsl) );
+    
+    --color-stroke-secondary-hsl             : 358deg, 87%, 45%;
+    --color-stroke-secondary                 : hsl( var(--color-stroke-secondary-hsl) );
+    
+
+    /* Highlight */
+
+    --color-highlight-hsl                    : 358deg, 87%, 45%;
+    --color-highlight                        : hsl( var(--color-highlight-hsl) );
+    
+
+    /* Feedback */
+
+    --color-feedback-neutral-hsl             : 358deg, 87%, 45%;
+    --color-feedback-neutral                 : hsl( var(--color-feedback-neutral-hsl) );
+
+    --color-feedback-positive-hsl             : 358deg, 87%, 45%;
+    --color-feedback-positive                 : hsl( var(--color-feedback-positive-hsl) );
+    
+    --color-feedback-warning-hsl             : 358deg, 87%, 45%;
+    --color-feedback-warning                 : hsl( var(--color-feedback-warning-hsl) );
+    
+    --color-feedback-negative-hsl            : 358deg, 87%, 45%;
+    --color-feedback-negative                : hsl( var(--color-feedback-negative-hsl) );
+    
+
+    /* Background */
+
+    --color-bg-ground-hsl                    : 358deg, 87%, 45%;
+    --color-bg-ground                        : hsl( var(--color-bg-ground-hsl) );
+    
+    --color-bg-underground-hsl               : 358deg, 87%, 45%;
+    --color-bg-underground                   : hsl( var(--color-bg-underground-hsl) );
+    
+
+    /* Background Actions */
+
+    --color-bg-action-primary-hsl            : 358deg, 87%, 45%;
+    --color-bg-action-primary                : hsl( var(--color-bg-action-primary-hsl) );
+    
+    --color-bg-action-primary-hover-hsl      : 358deg, 87%, 45%;
+    --color-bg-action-primary-hover          : hsl( var(--color-bg-action-primary-hover-hsl) );
+    
+    --color-bg-action-secondary-hsl          : 358deg, 87%, 45%;
+    --color-bg-action-secondary              : hsl( var(--color-bg-action-secondary-hsl) );
+    
+    --color-bg-action-secondary-hover-hsl    : 358deg, 87%, 45%;
+    --color-bg-action-secondary-hover        : hsl( var(--color-bg-action-secondary-hover-hsl) );
+    
+    --color-bg-action-no-bg-hover-hsl        : 358deg, 87%, 45%;
+    --color-bg-action-no-bg-hover            : hsl( var(--color-bg-action-no-bg-hover-hsl) );
+    
+    --color-bg-action-disabled-hsl           : 358deg, 87%, 45%;
+    --color-bg-action-disabled               : hsl( var(--color-bg-action-disabled-hsl) );
+    
+    --color-bg-action-selected-hsl           : 358deg, 87%, 45%;
+    --color-bg-action-selected               : hsl( var(--color-bg-action-selected-hsl) );
+    
+
+    /* Background Overlay */
+
+    --color-bg-overlay-black-20prct          : rgba(0,0,0, .2);
+    --color-bg-overlay-black-50prct          : rgba(0,0,0, .5);
+
+    
+    .reversed {
+
+        /* Neutral */
+
+        --color-neutral-primary-hsl              : 358deg, 87%, 45%;
+        --color-neutral-primary                  : hsl( var(--color-neutral-primary-hsl) );
+        
+        --color-neutral-secondary-hsl            : 358deg, 87%, 45%;
+        --color-neutral-secondary                : hsl( var(--color-neutral-secondary-hsl) );
+        
+        --color-neutral-tertiary-hsl             : 358deg, 87%, 45%;
+        --color-neutral-tertiary                 : hsl( var(--color-neutral-tertiary-hsl) );
+        
+
+        /* Stroke */
+
+        --color-stroke-primary-hsl               : 358deg, 87%, 45%;
+        --color-stroke-primary                   : hsl( var(--color-stroke-primary-hsl) );
+        
+        --color-stroke-secondary-hsl             : 358deg, 87%, 45%;
+        --color-stroke-secondary                 : hsl( var(--color-stroke-secondary-hsl) );
+        
+
+        /* Highlight */
+
+        --color-highlight-hsl                    : 358deg, 87%, 45%;
+        --color-highlight                        : hsl( var(--color-highlight-hsl) );
+        
+
+        /* Background */
+
+        --color-bg-ground-hsl                    : 358deg, 87%, 45%;
+        --color-bg-ground                        : hsl( var(--color-bg-ground-hsl) );
+        
+        --color-bg-underground-hsl               : 358deg, 87%, 45%;
+        --color-bg-underground                   : hsl( var(--color-bg-underground-hsl) );
+        
+        
+        /* Background Actions */
+
+        --color-bg-action-secondary-hsl          : 358deg, 87%, 45%;
+        --color-bg-action-secondary              : hsl( var(--color-bg-action-secondary-hsl) );
+        
+        --color-bg-action-secondary-hover-hsl    : 358deg, 87%, 45%;
+        --color-bg-action-secondary-hover        : hsl( var(--color-bg-action-secondary-hover-hsl) );
+        
+        --color-bg-action-no-bg-hover-hsl        : 358deg, 87%, 45%;
+        --color-bg-action-no-bg-hover            : hsl( var(--color-bg-action-no-bg-hover-hsl) );
+        
+        --color-bg-action-disabled-hsl           : 358deg, 87%, 45%;
+        --color-bg-action-disabled               : hsl( var(--color-bg-action-disabled-hsl) );
+        
+        --color-bg-action-selected-hsl           : 358deg, 87%, 45%;
+        --color-bg-action-selected               : hsl( var(--color-bg-action-selected-hsl) );
+        
+    }
+
+}
