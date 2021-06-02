@@ -11,13 +11,26 @@ import { default as GButton } from './index.vue';
     argTypes={{
         color: { control: { type: 'color' } },
         size: { control: { type: 'select', options: ['small', 'medium', 'large'] } },
+        reversed: {
+            description: 'Passer en mode reversed',
+            control: { type: 'boolean' },
+            type: { name: 'boolean', required: false },
+            table: {
+                type: { summary: 'boolean' },
+                defaultValue: { summary: false },
+            },
+        }
     }}
 />
 
 export const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { GButton },
-  template: '<g-button @onClick="onClick" v-bind="$props" />',
+  template: `
+    <div v-bind:class="{ reversed: reversed }">
+        <g-button @onClick="onClick" v-bind="$props" />
+    </div>
+    `,
 });
 
 
